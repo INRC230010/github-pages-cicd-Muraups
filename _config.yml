@@ -1,0 +1,15 @@
+title: Meu Novo Site Estático
+email: seuemail@example.com
+description: >- # este é o resumo do seu site para motores de busca
+  Um site pessoal incrível feito com Jekyll e hospedado no GitHub Pages.
+baseurl: "" # Se o seu site for um Project Page (repo-name), altere para "/repo-name"
+url: "https://seu-usuario.github.io" # Coloque seu domínio aqui
+
+# Configuração do tema (se estiver usando um)
+theme: minima 
+# ou 'remote_theme: pages-themes/slate' para temas do GitHub Pages
+
+# Constrói o site final ignorando certos arquivos/pastas
+exclude:
+  - Gemfile
+  - Gemfile.lock
